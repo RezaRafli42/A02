@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    </head>
+        </head>
     <body id="body" class="light">
 
         <header>
@@ -30,7 +30,7 @@
             </div>
             <a href="#"><span class="fa fa-bars menu-icon"></span></a>
             <span class="menu-icon"></span>
-            <div class="header-right">
+            <div class="header-right navigation">
                 <a href="#anggota">Anggota</a>
                 <a href="#perkenalan">Perkenalan</a>
             </div>
@@ -190,24 +190,4 @@
     </body>
 </html>
 
-<script>
-
-    function theme(){
-        var checkBox = document.getElementById("toggle");
-        var body = document.getElementById("body");
-        var text = document.getElementById("text");
-        if(checkBox.checked === true){
-            body.classList.add('dark');
-            body.classList.remove('light');
-
-            text.classList.add('dark');
-            text.classList.remove('light');
-        }else{
-            body.classList.add('light');
-            body.classList.remove('dark');
-
-            text.classList.add('light');
-            text.classList.remove('dark');
-        }
-    }
-</script>
+<script src="main.js"></script>
